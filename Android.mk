@@ -7,7 +7,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
-LOCAL_JAVA_LIBRARIES := telephony-common okhttp
+LOCAL_JAVA_LIBRARIES := telephony-common
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_PACKAGE_NAME := NumberLocationProvider
