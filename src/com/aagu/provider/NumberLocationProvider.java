@@ -35,7 +35,7 @@ public class NumberLocationProvider extends ContentProvider {
 
     static final String PROVIDER_NAME = "com.aagu.provider.NumberLocation";
     static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER_NAME
-            + "/phonenumberlocation");
+            + "/numberlocation");
 
     static final String _ID = "_id";
     static final String PHONENUMBER = "phone_number";

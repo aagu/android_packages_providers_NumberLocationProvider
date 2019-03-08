@@ -14,7 +14,7 @@
         android:label="@string/app_name">
 
         <provider
-            android:name=".NumberLocationProvider"
+            android:name="com.aagu.provider.NumberLocationProvider"
             android:authorities="com.aagu.provider.NumberLocation"
             android:readPermission="aagu.NumberLocationProvider.READ"
             android:writePermission="aagu.NumberLocationProvider.WRITE"
