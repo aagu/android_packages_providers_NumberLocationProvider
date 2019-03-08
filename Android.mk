@@ -14,3 +14,11 @@ LOCAL_PACKAGE_NAME := NumberLocationProvider
 LOCAL_CERTIFICATE := platform
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE := prebuilt-numberlocation
+LOCAL_SRC_FILES := lib/numberlocationlib.aar
+LOCAL_UNINSTALLABLE_MODULE := true
+LOCAL_SDK_VERSION := current
+include $(BUILD_PREBUILT)
